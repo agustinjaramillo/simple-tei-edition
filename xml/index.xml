@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Recipes Book TEI Exercise</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication information</p>
+            <p>Copies given in class</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Uncertain Source</p>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
   <text>
       <body>
-         <p>Some text here.</p>
+         <div type="Recipe" n="1">
+            <head>Oatmeal Bread</head>
+            <list>
+               <item><num type="cardinal">2</num><measure>cups</measure>oatmeal</item>
+               <item><measure type="volume" quantity="1" unit="spoonful" commodity="lard">1 large spoonful lard</measure></item>
+               
+            </list>
+         </div>
       </body>
   </text>
 </TEI>
